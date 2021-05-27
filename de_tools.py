@@ -3,7 +3,7 @@ from multiprocessing import Pool
 from calendar import month_name
 from fuzzywuzzy.fuzz import ratio
 import sqlite3
-#test
+#test2
 quick_mod = lambda x: x.replace(' ', r'[A-Za-z]*[\s\S]{,5}?[A-Za-z]*?')
 quick_mod2 = lambda x: x.replace(' ', r'\S*[\s\S]{,5}?\S*?')
 
